@@ -143,7 +143,7 @@ function [dos_tot, dos_tot_mono, dos_fit, prefac]=dos_calc_tri(alpha,q1_list,q2_
             dos_tot_mono = sum(dos_mono,1);
 
             % fit to expected slope 
-            cond = E_list>=0 & E_list < 100e-3;
+            cond = E_list>=100e-3 & E_list < 300e-3; % Orig 0-100meV
             dos_fit = polyfit(E_list(cond), dos_tot_mono(cond),1); 
 
             % normalize to graphene DOS, g(E) = 2*A_c*E/pi/vF^2
@@ -162,11 +162,11 @@ function [dos_tot, dos_tot_mono, dos_fit, prefac]=dos_calc_tri(alpha,q1_list,q2_
             dos_tot = sum(dos,1) * prefac(run_idx);
  
             fname = ['dos_q12_' num2str(abs(theta_list(1))) '_q23_' num2str(abs(theta_list(3)))...
-                            '_kcut_' num2str(k_cutoff) '_qtype_' num2str(q_cut_type) '_nq_' num2str((nq+1)^2) '_zip.mat'];
+                            '_kcut_' num2str(k_cutoff) '_qtype_' num2str(q_cut_type) '_nq_' num2str((nq+1)^2) '_neig_' num2str(num_eigs) '_zip.mat'];
             
             % save data
             if save_data
-                save(['./data/' fname ], 'dos_tot', 'dos_tot_mono', 'param',...
+                save(['./data1/' fname ], 'dos_tot', 'dos_tot_mono', 'param',...
                     'ndof', 'E_list', 'prefac', 'q12', 'q23','cond','dos_fit')
            
             end 

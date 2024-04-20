@@ -1,0 +1,510 @@
+Job started on r153.ib.bridges2.psc.edu at Tue Sep 13 02:59:10 EDT 2022
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+             R2021a Update 1 (9.10.0.1649659) 64-bit (glnxa64)
+                               April 13, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 56).
+
+ans = 
+
+ ProcessPool with properties: 
+
+            Connected: true
+           NumWorkers: 56
+              Cluster: local
+        AttachedFiles: {}
+    AutoAddClientPath: true
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+Running twist angle 1/3 
+Global twist angles in deg.: 
+    2.0000         0    4.6000
+
+       48495
+
+       48495           9
+
+48495 total k points 
+[Warning: A worker aborted during execution of the parfor loop. The parfor loop
+will now run again on the remaining workers.] 
+[> In distcomp/remoteparfor/handleIntervalErrorResult (line 245)
+In distcomp/remoteparfor/getCompleteIntervals (line 395)
+In parallel_function>distributed_execution (line 741)
+In parallel_function (line 573)
+In dos_calc_tri (line 124)
+In call_dos (line 55)
+In run (line 91)] 
+[Warning: A worker aborted during execution of the parfor loop. The parfor loop
+will now run again on the remaining workers.] 
+[> In distcomp/remoteparfor/handleIntervalErrorResult (line 245)
+In distcomp/remoteparfor/getCompleteIntervals (line 395)
+In parallel_function>distributed_execution (line 741)
+In parallel_function (line 573)
+In dos_calc_tri (line 124)
+In call_dos (line 55)
+In run (line 91)] 
+[Warning: A worker aborted during execution of the parfor loop. The parfor loop
+will now run again on the remaining workers.] 
+[> In distcomp/remoteparfor/handleIntervalErrorResult (line 245)
+In distcomp/remoteparfor/getCompleteIntervals (line 395)
+In parallel_function>distributed_execution (line 741)
+In parallel_function (line 573)
+In dos_calc_tri (line 124)
+In call_dos (line 55)
+In run (line 91)] 
+[Warning: A worker aborted during execution of the parfor loop. The parfor loop
+will now run again on the remaining workers.] 
+[> In distcomp/remoteparfor/handleIntervalErrorResult (line 245)
+In distcomp/remoteparfor/getCompleteIntervals (line 395)
+In parallel_function>distributed_execution (line 741)
+In parallel_function (line 573)
+In dos_calc_tri (line 124)
+In call_dos (line 55)
+In run (line 91)] 
+[Warning: A worker aborted during execution of the parfor loop. The parfor loop
+will now run again on the remaining workers.] 
+[> In distcomp/remoteparfor/handleIntervalErrorResult (line 245)
+In distcomp/remoteparfor/getCompleteIntervals (line 395)
+In parallel_function>distributed_execution (line 741)
+In parallel_function (line 573)
+In dos_calc_tri (line 124)
+In call_dos (line 55)
+In run (line 91)] 
+[Warning: A worker aborted during execution of the parfor loop. The parfor loop
+will now run again on the remaining workers.] 
+[> In distcomp/remoteparfor/handleIntervalErrorResult (line 245)
+In distcomp/remoteparfor/getCompleteIntervals (line 395)
+In parallel_function>distributed_execution (line 741)
+In parallel_function (line 573)
+In dos_calc_tri (line 124)
+In call_dos (line 55)
+In run (line 91)] 
+[Warning: A worker aborted during execution of the parfor loop. The parfor loop
+will now run again on the remaining workers.] 
+[> In distcomp/remoteparfor/handleIntervalErrorResult (line 245)
+In distcomp/remoteparfor/getCompleteIntervals (line 395)
+In parallel_function>distributed_execution (line 741)
+In parallel_function (line 573)
+In dos_calc_tri (line 124)
+In call_dos (line 55)
+In run (line 91)] 
+[Warning: A worker aborted during execution of the parfor loop. The parfor loop
+will now run again on the remaining workers.] 
+[> In distcomp/remoteparfor/handleIntervalErrorResult (line 245)
+In distcomp/remoteparfor/getCompleteIntervals (line 395)
+In parallel_function>distributed_execution (line 741)
+In parallel_function (line 573)
+In dos_calc_tri (line 124)
+In call_dos (line 55)
+In run (line 91)] 
+Diagonalization done with 23 / 1024 
+Diagonalization done with 1 / 1024 
+Diagonalization done with 6 / 1024 
+Diagonalization done with 24 / 1024 
+Diagonalization done with 26 / 1024 
+Diagonalization done with 10 / 1024 
+Diagonalization done with 13 / 1024 
+Diagonalization done with 7 / 1024 
+Diagonalization done with 21 / 1024 
+Diagonalization done with 20 / 1024 
+Diagonalization done with 5 / 1024 
+Diagonalization done with 25 / 1024 
+Diagonalization done with 8 / 1024 
+Diagonalization done with 14 / 1024 
+Diagonalization done with 3 / 1024 
+Diagonalization done with 27 / 1024 
+Diagonalization done with 15 / 1024 
+Diagonalization done with 11 / 1024 
+Diagonalization done with 9 / 1024 
+Diagonalization done with 4 / 1024 
+Diagonalization done with 16 / 1024 
+Diagonalization done with 22 / 1024 
+Diagonalization done with 17 / 1024 
+Diagonalization done with 12 / 1024 
+Diagonalization done with 28 / 1024 
+Diagonalization done with 29 / 1024 
+Diagonalization done with 18 / 1024 
+Diagonalization done with 30 / 1024 
+Diagonalization done with 2 / 1024 
+Diagonalization done with 19 / 1024 
+Diagonalization done with 36 / 1024 
+Diagonalization done with 54 / 1024 
+Diagonalization done with 53 / 1024 
+Diagonalization done with 31 / 1024 
+Diagonalization done with 56 / 1024 
+Diagonalization done with 50 / 1024 
+Diagonalization done with 40 / 1024 
+Diagonalization done with 43 / 1024 
+Diagonalization done with 51 / 1024 
+Diagonalization done with 37 / 1024 
+Diagonalization done with 44 / 1024 
+Diagonalization done with 38 / 1024 
+Diagonalization done with 33 / 1024 
+Diagonalization done with 35 / 1024 
+Diagonalization done with 55 / 1024 
+Diagonalization done with 65 / 1024 
+Diagonalization done with 46 / 1024 
+Diagonalization done with 39 / 1024 
+Diagonalization done with 47 / 1024 
+Diagonalization done with 41 / 1024 
+Diagonalization done with 34 / 1024 
+Diagonalization done with 42 / 1024 
+Diagonalization done with 45 / 1024 
+Diagonalization done with 52 / 1024 
+Diagonalization done with 32 / 1024 
+Diagonalization done with 92 / 1024 
+Diagonalization done with 74 / 1024 
+Diagonalization done with 83 / 1024 
+Diagonalization done with 49 / 1024 
+Diagonalization done with 48 / 1024 
+Diagonalization done with 128 / 1024 
+Diagonalization done with 110 / 1024 
+Diagonalization done with 119 / 1024 
+Diagonalization done with 101 / 1024 
+Diagonalization Done With 137 / 1024 
+Diagonalization Done with 155 / 1024 
+Diagonalization done with 164 / 1024 
+Diagonalization done with 182 / 1024 
+Diagonalization done with 218 / 1024 
+Diagonalization done with 146 / 1024 
+Diagonalization done with 209 / 1024 
+Diagonalization done with 173 / 1024 
+Diagonalization done with 227 / 1024 
+Diagonalization done with 191 / 1024 
+Diagonalization done with 200 / 1024 
+Diagonalization done with 245 / 1024 
+Diagonalization done with 64 / 1024 
+Diagonalization done with 272 / 1024 
+Diagonalization done with 281 / 1024 
+Diagonalization done with 308 / 1024 
+Diagonalization done with 254 / 1024 
+Diagonalization done with 290 / 1024 
+Diagonalization done with 73 / 1024 
+Diagonalization done with 263 / 1024 
+Diagonalization done with 299 / 1024 
+Diagonalization done with 91 / 1024 
+Diagonalization done with 353 / 1024 
+Diagonalization done with 82 / 1024 
+Diagonalization done with 362 / 1024 
+Diagonalization done with 335 / 1024 
+Diagonalization done with 127 / 1024 
+Diagonalization done with 109 / 1024 
+Diagonalization done with 118 / 1024 
+Diagonalization done with 208 / 1024 
+Diagonalization done with 100 / 1024 
+Diagonalization done with 217 / 1024 
+Diagonalization done with 136 / 1024 
+Diagonalization done with 181 / 1024 
+Diagonalization done with 154 / 1024 
+Diagonalization done with 163 / 1024 
+Diagonalization done with 145 / 1024 
+Diagonalization done with 172 / 1024 
+Diagonalization done with 226 / 1024 
+Diagonalization done with 190 / 1024 
+Diagonalization done with 244 / 1024 
+Diagonalization done with 199 / 1024 
+Diagonalization done with 63 / 1024 
+Diagonalization done with 271 / 1024 
+Diagonalization done with 72 / 1024 
+Diagonalization done with 81 / 1024 
+Diagonalization done with 253 / 1024 
+Diagonalization done with 307 / 1024 
+Diagonalization done with 280 / 1024 
+Diagonalization done with 298 / 1024 
+Diagonalization done with 289 / 1024 
+Diagonalization done with 90 / 1024 
+Diagonalization done with 352 / 1024 
+Diagonalization done with 262 / 1024 
+Diagonalization done with 361 / 1024 
+Diagonalization done with 334 / 1024 
+Diagonalization done with 126 / 1024 
+Diagonalization done with 108 / 1024 
+Diagonalization done with 117 / 1024 
+Diagonalization done with 207 / 1024 
+Diagonalization done with 99 / 1024 
+Diagonalization done with 216 / 1024 
+Diagonalization done with 135 / 1024 
+Diagonalization done with 180 / 1024 
+Diagonalization done with 162 / 1024 
+Diagonalization done with 153 / 1024 
+Diagonalization done with 171 / 1024 
+Diagonalization done with 144 / 1024 
+Diagonalization done with 225 / 1024 
+Diagonalization done with 189 / 1024 
+Diagonalization done with 116 / 1024 
+Diagonalization done with 243 / 1024 
+Diagonalization done with 198 / 1024 
+Diagonalization done with 62 / 1024 
+Diagonalization done with 270 / 1024 
+Diagonalization done with 125 / 1024 
+Diagonalization done with 80 / 1024 
+Diagonalization done with 71 / 1024 
+Diagonalization done with 306 / 1024 
+Diagonalization done with 288 / 1024 
+Diagonalization done with 252 / 1024 
+Diagonalization done with 279 / 1024 
+Diagonalization done with 297 / 1024 
+Diagonalization done with 360 / 1024 
+Diagonalization done with 261 / 1024 
+Diagonalization done with 351 / 1024 
+Diagonalization done with 89 / 1024 
+Diagonalization done with 333 / 1024 
+Diagonalization done with 107 / 1024 
+Diagonalization done with 206 / 1024 
+Diagonalization done with 98 / 1024 
+Diagonalization done with 215 / 1024 
+Diagonalization done with 124 / 1024 
+Diagonalization done with 134 / 1024 
+Diagonalization done with 179 / 1024 
+Diagonalization done with 161 / 1024 
+Diagonalization done with 152 / 1024 
+Diagonalization done with 106 / 1024 
+Diagonalization done with 115 / 1024 
+Diagonalization done with 143 / 1024 
+Diagonalization done with 170 / 1024 
+Diagonalization done with 224 / 1024 
+Diagonalization done with 188 / 1024 
+Diagonalization done with 197 / 1024 
+Diagonalization done with 242 / 1024 
+Diagonalization done with 61 / 1024 
+Diagonalization done with 269 / 1024 
+Diagonalization done with 79 / 1024 
+Diagonalization done with 70 / 1024 
+Diagonalization done with 350 / 1024 
+Diagonalization done with 88 / 1024 
+Diagonalization done with 305 / 1024 
+Diagonalization done with 278 / 1024 
+Diagonalization done with 287 / 1024 
+Diagonalization done with 359 / 1024 
+Diagonalization done with 251 / 1024 
+Diagonalization done with 296 / 1024 
+Diagonalization done with 260 / 1024 
+Diagonalization done with 332 / 1024 
+Diagonalization done with 205 / 1024 
+Diagonalization done with 97 / 1024 
+Diagonalization done with 123 / 1024 
+Diagonalization done with 169 / 1024 
+Diagonalization done with 114 / 1024 
+Diagonalization done with 214 / 1024 
+Diagonalization done with 105 / 1024 
+Diagonalization done with 178 / 1024 
+Diagonalization done with 133 / 1024 
+Diagonalization done with 160 / 1024 
+Diagonalization done with 151 / 1024 
+Diagonalization done with 142 / 1024 
+Diagonalization done with 223 / 1024 
+Diagonalization done with 187 / 1024 
+Diagonalization done with 87 / 1024 
+Diagonalization done with 241 / 1024 
+Diagonalization done with 196 / 1024 
+Diagonalization done with 60 / 1024 
+Diagonalization done with 268 / 1024 
+Diagonalization done with 78 / 1024 
+Diagonalization done with 69 / 1024 
+Diagonalization done with 349 / 1024 
+Diagonalization done with 277 / 1024 
+Diagonalization done with 286 / 1024 
+Diagonalization done with 204 / 1024 
+Diagonalization done with 304 / 1024 
+Diagonalization done with 259 / 1024 
+Diagonalization done with 358 / 1024 
+Diagonalization done with 250 / 1024 
+Diagonalization done with 331 / 1024 
+Diagonalization done with 295 / 1024 
+Diagonalization done with 113 / 1024 
+Diagonalization done with 104 / 1024 
+Diagonalization done with 96 / 1024 
+Diagonalization done with 122 / 1024 
+Diagonalization done with 168 / 1024 
+Diagonalization done with 213 / 1024 
+Diagonalization done with 177 / 1024 
+Diagonalization done with 203 / 1024 
+Diagonalization done with 132 / 1024 
+Diagonalization done with 159 / 1024 
+Diagonalization done with 150 / 1024 
+Diagonalization done with 141 / 1024 
+Diagonalization done with 86 / 1024 
+Diagonalization done with 222 / 1024 
+Diagonalization done with 186 / 1024 
+Diagonalization done with 240 / 1024 
+Diagonalization done with 195 / 1024 
+Diagonalization done with 59 / 1024 
+Diagonalization done with 267 / 1024 
+Diagonalization done with 77 / 1024 
+Diagonalization done with 276 / 1024 
+Diagonalization done with 68 / 1024 
+Diagonalization done with 285 / 1024 
+Diagonalization done with 303 / 1024 
+Diagonalization done with 357 / 1024 
+Diagonalization done with 249 / 1024 
+Diagonalization done with 258 / 1024 
+Diagonalization done with 294 / 1024 
+Diagonalization done with 330 / 1024 
+Diagonalization done with 348 / 1024 
+Diagonalization done with 112 / 1024 
+Diagonalization done with 103 / 1024 
+Diagonalization done with 95 / 1024 
+Diagonalization done with 212 / 1024 
+Diagonalization done with 202 / 1024 
+Diagonalization done with 121 / 1024 
+Diagonalization done with 167 / 1024 
+Diagonalization done with 185 / 1024 
+Diagonalization done with 176 / 1024 
+Diagonalization done with 131 / 1024 
+Diagonalization done with 158 / 1024 
+Diagonalization done with 149 / 1024 
+Diagonalization done with 140 / 1024 
+Diagonalization done with 85 / 1024 
+Diagonalization done with 221 / 1024 
+Diagonalization done with 239 / 1024 
+Diagonalization done with 194 / 1024 
+Diagonalization done with 58 / 1024 
+Diagonalization done with 266 / 1024 
+Diagonalization done with 76 / 1024 
+Diagonalization done with 275 / 1024 
+Diagonalization done with 284 / 1024 
+Diagonalization done with 67 / 1024 
+Diagonalization done with 302 / 1024 
+Diagonalization done with 347 / 1024 
+Diagonalization done with 248 / 1024 
+Diagonalization done with 293 / 1024 
+Diagonalization done with 329 / 1024 
+Diagonalization done with 356 / 1024 
+Diagonalization done with 257 / 1024 
+Diagonalization done with 111 / 1024 
+Diagonalization done with 102 / 1024 
+Diagonalization done with 184 / 1024 
+Diagonalization done with 94 / 1024 
+Diagonalization done with 211 / 1024 
+Diagonalization done with 201 / 1024 
+Diagonalization done with 120 / 1024 
+Diagonalization done with 166 / 1024 
+Diagonalization done with 84 / 1024 
+Diagonalization done with 175 / 1024 
+Diagonalization done with 130 / 1024 
+Diagonalization done with 157 / 1024 
+Diagonalization done with 148 / 1024 
+Diagonalization done with 139 / 1024 
+Diagonalization done with 238 / 1024 
+Diagonalization done with 193 / 1024 
+Diagonalization done with 220 / 1024 
+Diagonalization done with 75 / 1024 
+Diagonalization done with 265 / 1024 
+Diagonalization done with 57 / 1024 
+Diagonalization done with 371 / 1024 
+Diagonalization done with 274 / 1024 
+Diagonalization done with 283 / 1024 
+Diagonalization done with 66 / 1024 
+Diagonalization done with 346 / 1024 
+Diagonalization done with 301 / 1024 
+Diagonalization done with 247 / 1024 
+Diagonalization done with 292 / 1024 
+Diagonalization done with 328 / 1024 
+Diagonalization done with 355 / 1024 
+Diagonalization done with 256 / 1024 
+Diagonalization done with 398 / 1024 
+Diagonalization done with 165 / 1024 
+Diagonalization done with 183 / 1024 
+Diagonalization done with 93 / 1024 
+Diagonalization done with 210 / 1024 
+Diagonalization done with 470 / 1024 
+Diagonalization done with 380 / 1024 
+Diagonalization done with 129 / 1024 
+Diagonalization done with 344 / 1024 
+Diagonalization done with 156 / 1024 
+Diagonalization done with 147 / 1024 
+Diagonalization done with 174 / 1024 
+Diagonalization done with 138 / 1024 
+Diagonalization done with 192 / 1024 
+Diagonalization done with 237 / 1024 
+Diagonalization done with 370 / 1024 
+Diagonalization done with 264 / 1024 
+Diagonalization done with 326 / 1024 
+Diagonalization done with 236 / 1024 
+Diagonalization done with 219 / 1024 
+Diagonalization done with 273 / 1024 
+Diagonalization done with 397 / 1024 
+Diagonalization done with 282 / 1024 
+Diagonalization done with 246 / 1024 
+Diagonalization done with 317 / 1024 
+Diagonalization done with 345 / 1024 
+Diagonalization done with 300 / 1024 
+Diagonalization done with 354 / 1024 
+Diagonalization done with 291 / 1024 
+Diagonalization done with 327 / 1024 
+Diagonalization done with 255 / 1024 
+Diagonalization done with 443 / 1024 
+Diagonalization done with 488 / 1024 
+Diagonalization done with 389 / 1024 
+Diagonalization done with 461 / 1024 
+Diagonalization done with 407 / 1024 
+Diagonalization done with 469 / 1024 
+Diagonalization done with 379 / 1024 
+Diagonalization done with 343 / 1024 
+Diagonalization done with 434 / 1024 
+Diagonalization done with 452 / 1024 
+Diagonalization done with 416 / 1024 
+Diagonalization done with 425 / 1024 
+Diagonalization done with 497 / 1024 
+Diagonalization done with 396 / 1024 
+Diagonalization done with 560 / 1024 
+Diagonalization done with 369 / 1024 
+Diagonalization done with 325 / 1024 
+Diagonalization done with 542 / 1024 
+Diagonalization done with 479 / 1024 
+Diagonalization done with 235 / 1024 
+Diagonalization done with 506 / 1024 
+Diagonalization done with 533 / 1024 
+Diagonalization done with 568 / 1024 
+Diagonalization done with 551 / 1024 
+Diagonalization done with 564 / 1024 
+Diagonalization done with 316 / 1024 
+Diagonalization done with 524 / 1024 
+Diagonalization done with 572 / 1024 
+Diagonalization done with 576 / 1024 
+Diagonalization done with 442 / 1024 
+Diagonalization done with 515 / 1024 
+Diagonalization done with 460 / 1024 
+Diagonalization done with 406 / 1024 
+Diagonalization done with 487 / 1024 
+Diagonalization done with 388 / 1024 
+Diagonalization done with 468 / 1024 
+Diagonalization done with 378 / 1024 
+Diagonalization done with 342 / 1024 
+Diagonalization done with 433 / 1024 
+Diagonalization done with 451 / 1024 
+Diagonalization done with 415 / 1024 
+Diagonalization done with 424 / 1024 
+Diagonalization done with 523 / 1024 
+Diagonalization done with 496 / 1024 
+Diagonalization done with 324 / 1024 
+Diagonalization done with 395 / 1024 
+Diagonalization done with 559 / 1024 
+Diagonalization done with 368 / 1024 
+Diagonalization done with 541 / 1024 
+Diagonalization done with 478 / 1024 
+Diagonalization done with 567 / 1024 
+Diagonalization done with 234 / 1024 
+Diagonalization done with 550 / 1024 
+Diagonalization done with 532 / 1024 
+Diagonalization done with 505 / 1024 
+Diagonalization done with 315 / 1024 
+Diagonalization done with 563 / 1024 
+Diagonalization done with 575 / 1024 
+Diagonalization done with 571 / 1024 
+Diagonalization done with 441 / 1024 
+Diagonalization done with 514 / 1024 
+Diagonalization done with 405 / 1024 
+Diagonalization done with 459 / 1024 
+Diagonalization done with 486 / 1024 
+Diagonalization done with 558 / 1024 
+Diagonalization done with 387 / 1024 
+Diagonalization done with 467 / 1024 

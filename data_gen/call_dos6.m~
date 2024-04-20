@@ -2,16 +2,20 @@
 % email: zzhu1@g.harvard.edu
 % example calculatiion of the DOS
 clear all
-q1_list = linspace(1,2,11);                    % list of \theta_{12} in deg.
-q2_list = linspace(1,2,11);              % list of \theta_{23} in deg.
+addpath('..')
+
+%q1_list=[2.6]
+%q2+list=[4.6] % To be calculated
+q2_list = [2.2, 2.3, 2.4, 2.5];
+q1_list = [4.7, 4.8];
 k_cutoff = 5;                     % k space cutoff in the unit of reciprocal lattice constant   
 E_list = linspace(-1,1,1e3);  % list of energies in eV
 q_cut_type = 1;                   % type of Brillouin zone sampling. 
                                   % type 1: monolayer Brillouin zone
                                   % type 2: L12 moire Brillouin zone
                                   % type 3: L23 moire Brillouin zone
-num_eigs = 540;                    % number of eigenvalues to keep in the diagonalization
-nq = 21;                          % grid size
+num_eigs = 1000;                    % number of eigenvalues to keep in the diagonalization
+nq = 31;                          % grid size
 E_field = 0;                      % vertical displacement field 
 save_data = 1; 
 a0 = 1.43 * sqrt(3);
@@ -21,7 +25,7 @@ a0 = 1.43 * sqrt(3);
 % np = str2num(getenv('SLURM_CPUS_PER_TASK')); % number of workers
 
 % if running locally 
-np = 16;
+np = 56;
 
 k = 1;
 for i = 1:length(q1_list)

@@ -40,7 +40,7 @@ Please contact me with any issues and/or request.
 
 8. `/geom/` folder contains scripts to calculate the moire of moire lengths and to make Figure 1 of the [original paper](https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.125.116404).  
 
-9. `/data_gen/` folder contains final data used for this work. For highest quality data, we used set the following parameters, 
+9. `/data_gen/` folder contains final data used for this work. For highest quality data, we used the following parameters, (see section Default Parameters to compare) 
 
 i.  `k_cutoff = 4` : High momentum cutoff radius
 

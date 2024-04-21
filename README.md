@@ -43,11 +43,11 @@ Data generation - Mohammad Babar : mdbabar@umich.edu
 
 i.  `k_cutoff = 4` : High momentum cutoff radius
 
-ii. `param = 6e-3` : Small Gaussian smoothing
+ii. `param = 6e-3` : Less Gaussian smoothing
 
 iii. `nq = 62 x 62` : Fine gid size
 
-iv. `num_eigs > 900` : Included maximum possible bands in energy range
+iv. `num_eigs > 900` : Large number of bands in DOS
 
 v. `E_list = linspace(-1,1,1e3)` : Energy range -1 to 1eV
 

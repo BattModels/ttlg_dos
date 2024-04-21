@@ -59,7 +59,7 @@ Description of input arguments can be found at the beginning of each file.
 
 ## Default Parameters
 
-Examples can be found in the [original repository]([original package](https://github.com/ziyanzzhu/ttlg)). 
+Examples can be found in the [original repository](https://github.com/ziyanzzhu/ttlg). 
 
 Default parameters in input files are as follows,
 1. `triG_bands_calc.m`: calculates the band structure at θ12 = 1.3 deg., θ23 = 3.2 deg, output will be saved to folder /data

@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J ttlg_corr1 # Job name
+#SBATCH -J ttlg_dos_sweep # Job name
 #SBATCH -n 128 # Number of cores
 #SBATCH -N 1 # Ensure that all cores are on one machine
 #SBATCH --time=2-00 # Runtime in D-HH:MM

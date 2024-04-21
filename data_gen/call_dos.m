@@ -6,14 +6,14 @@ addpath('..')
 
 q1_list = [2.1 2.2 2.3 2.4];                    % list of \theta_{12} in deg.
 q2_list = [4.3, 4.4, 4.5, 4.6, 4.7, 4.8];              % list of \theta_{23} in deg.
-k_cutoff = 4;                     % k space cutoff in the unit of reciprocal lattice constant   
+k_cutoff = 7;                     % k space cutoff in the unit of reciprocal lattice constant   
 E_list = linspace(-1,1,1e3);  % list of energies in eV
 q_cut_type = 1;                   % type of Brillouin zone sampling. 
                                   % type 1: monolayer Brillouin zone
                                   % type 2: L12 moire Brillouin zone
                                   % type 3: L23 moire Brillouin zone
-num_eigs = 960;                    % number of eigenvalues to keep in the diagonalization
-nq = 31;                          % grid size
+num_eigs = 250;                    % number of eigenvalues to keep in the diagonalization
+nq = 11;                          % grid size
 E_field = 0;                      % vertical displacement field 
 save_data = 1; 
 a0 = 1.43 * sqrt(3);

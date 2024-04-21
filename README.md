@@ -39,19 +39,19 @@ Data generation - Mohammad Babar : mdbabar@umich.edu
 
 8. `/geom/` folder contains scripts to calculate the moire of moire lengths and to make Figure 1 of the [original paper](https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.125.116404).  
 
-9. `/data_gen/` folder contains final data used for this work. For highest quality data, we used the following parameters (see next section Default Parameters to compare),
+9. `/data_gen/` folder contains final data used for this work. For high resolution data, we used the following parameters (see next section Default Parameters to compare),
 
-i.  `k_cutoff = 4` : Momentum cutoff radius
+i.  `k_cutoff = 7` : High momentum cutoff radius 
 
-ii. `param = 6e-3` : Less Gaussian smoothing
+ii. `param = 6e-3` : Gaussian smoothing
 
-iii. `nq = 62 x 62` : Fine gid size
+iii. `nq = 22 x 22` : Grid size (Default)
 
-iv. `num_eigs > 500` : Large number of bands in DOS
+iv. `num_eigs > 200` : Large number of bands in DOS
 
 v. `E_list = linspace(-1,1,1e3)` : Energy range -1 to 1eV
 
-These parameters require high memory and cores for calculation, for which we used the [PSC Bridges2 supercomputer](https://www.psc.edu/resources/bridges-2/). We requested 56 cores from each node, and dispatched multiple runs (`/data_gen/call_dos*.m`) specifying different twist angle combinations. All DOS files are saved in `/data_gen/data/` including all twist angles from 1-5 degrees for layers L12 and L23. 
+These parameters require high memory and cores for calculation, for which we used the [PSC Bridges2 supercomputer](https://www.psc.edu/resources/bridges-2/). We requested 56 cores from each node, and dispatched multiple runs (`/data_gen/call_dos*.m`) specifying different twist angle combinations. All DOS files are saved in `/data_gen/sweep/` including all twist angles from 1-5 degrees for layers L12 and L23. 
 
 
 Description of input arguments can be found at the beginning of each file. 

@@ -16,10 +16,9 @@ Phys. Rev. Lett. 125, 116404
 
 ## Contact
 
-Ziyan (Zoe) Zhu: ziyanzhu [at] stanford.edu
+Developer - Ziyan (Zoe) Zhu: ziyanzhu@stanford.edu
 
-Please contact me with any issues and/or request. 
-
+Data generation - Mohammad Babar : mdbabar@umich.edu
 
 
 ## Code Descriptions
@@ -40,7 +39,7 @@ Please contact me with any issues and/or request.
 
 8. `/geom/` folder contains scripts to calculate the moire of moire lengths and to make Figure 1 of the [original paper](https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.125.116404).  
 
-9. `/data_gen/` folder contains final data used for this work. For highest quality data, we used the following parameters, (see section Default Parameters to compare) 
+9. `/data_gen/` folder contains final data used for this work. For highest quality data, we used the following parameters (see next section Default Parameters to compare),
 
 i.  `k_cutoff = 4` : High momentum cutoff radius
 
@@ -48,7 +47,7 @@ ii. `param = 6e-3` : Small Gaussian smoothing
 
 iii. `nq = 62 x 62` : Fine gid size
 
-iv. `num_eigs > 900` : Included maximum possible bands
+iv. `num_eigs > 900` : Included maximum possible bands in energy range
 
 v. `E_list = linspace(-1,1,1e3)` : Energy range -1 to 1eV
 

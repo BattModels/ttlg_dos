@@ -35,7 +35,7 @@ Data generation - Mohammad Babar : mdbabar@umich.edu
 
 6. `dos_gauss_smear.m`: calculates the DOS using Gaussian smaering
 
-7. `dos_calc_tri.m`: calculates the ttlg DOS and (optional) save data to folder `/data/`
+7. `dos_calc_tri.m`: calculates the ttlg DOS and (optional) save data to folder `/sweep/`
 
 8. `/geom/` folder contains scripts to calculate the moire of moire lengths and to make Figure 1 of the [original paper](https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.125.116404).  
 
@@ -51,7 +51,7 @@ iv. `num_eigs > 200` : Large number of bands in DOS
 
 v. `E_list = linspace(-1,1,1e3)` : Energy range -1 to 1eV
 
-These parameters require high memory and cores for calculation, for which we used the [PSC Bridges2 supercomputer](https://www.psc.edu/resources/bridges-2/). We requested 56 cores from each node, and dispatched multiple runs (`/data_gen/call_dos*.m`) specifying different twist angle combinations. All DOS files are saved in `/data_gen/sweep/` including all twist angles from 1-5 degrees for layers L12 and L23. 
+These parameters require high memory and cores for calculation, for which we used the [PSC Bridges2 supercomputer](https://www.psc.edu/resources/bridges-2/). We requested 56 cores from each node, and dispatched multiple runs (`/data_gen/call_dos*.m`) specifying different twist angle combinations. All DOS files are saved in `/data_gen/sweep/` containing all twist angles from 1-5 degrees for layers L12 and L23. 
 
 
 Description of input arguments can be found at the beginning of each file. 

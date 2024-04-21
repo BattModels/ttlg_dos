@@ -41,13 +41,13 @@ Data generation - Mohammad Babar : mdbabar@umich.edu
 
 9. `/data_gen/` folder contains final data used for this work. For highest quality data, we used the following parameters (see next section Default Parameters to compare),
 
-i.  `k_cutoff = 4` : High momentum cutoff radius
+i.  `k_cutoff = 4` : Momentum cutoff radius
 
 ii. `param = 6e-3` : Less Gaussian smoothing
 
 iii. `nq = 62 x 62` : Fine gid size
 
-iv. `num_eigs > 900` : Large number of bands in DOS
+iv. `num_eigs > 500` : Large number of bands in DOS
 
 v. `E_list = linspace(-1,1,1e3)` : Energy range -1 to 1eV
 
@@ -62,11 +62,9 @@ Description of input arguments can be found at the beginning of each file.
 Examples can be found in the [original repository](https://github.com/ziyanzzhu/ttlg). 
 
 Default parameters in input files are as follows,
-1. `triG_bands_calc.m`: calculates the band structure at θ12 = 1.3 deg., θ23 = 3.2 deg, output will be saved to folder /data
-
-2. `call_dos.m`: calculates the DOS by calling dos_calc_tri.m for θ12 = 1.3 deg., θ23 = 2.3, 3.2 deg.
+`call_dos.m`: calculates the DOS by calling dos_calc_tri.m for θ12 = 1 deg., θ23 = 1 deg. keeping `nq = 21` and `num_eigs = 40`.
 
 Outputs will be saved to folder `/data`; default number of parallel workers 4. Parallelize the k-space sampling. Have the option to run on a cluster. 
 
-The DOS is obtained by integrating over the bilayer moir\'e Brillouin zone of L1 and L2 only.  Need to also integrate over the L2 and L3 DOS and overage over the two moir\'e Brillouin zones. `k_cutoff` is set to be 3, resulting in ~1,800 degrees of freedom, and the grid size is 42 x 42. For a more accurate result, need to increase the cutoff radius and adjust the grid sampling. The variable `param` is the Gaussian full-width-half-maximum in eV and needs to be adjusted accordingly. In this example, we set `param = 8e-3`.
+The DOS is obtained by integrating over the bilayer moir\'e Brillouin zone of L1 and L2 only.  Need to also integrate over the L2 and L3 DOS and overage over the two moir\'e Brillouin zones. `k_cutoff` is set to be 3 (in new version `k_cutoff = 4`), resulting in ~1,800 degrees of freedom, and the grid size is 22 x 22 (`(nq+1) x (nq+1)`). For a more accurate result, need to increase the cutoff radius and adjust the grid sampling. The variable `param` is the Gaussian full-width-half-maximum in eV and needs to be adjusted accordingly. In this example, we set `param = 8e-3`.
 

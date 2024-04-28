@@ -1,6 +1,6 @@
 # ttlg_dos - Density of States Calculation of Twisted Trilayer Graphene
 
-Calculation of the electronic band structure and density of twisted trilayer graphene with two independent twist angles using a momentum space continuum model. All scripts are in MATLAB. All files are identical to the [original package](https://github.com/ziyanzzhu/ttlg), this cloned repository is tweaked to generate data for the present paper. `/data_gen/` folder contains final data used for this work and instructions to generate it. 
+Calculation of the electronic band structure and density of twisted trilayer graphene with two independent twist angles using a low-energy momentum space continuum model. All scripts are in MATLAB. All files are identical to the [original package](https://github.com/ziyanzzhu/ttlg), this cloned repository is tweaked to generate data for the present paper. `/data_gen/` folder contains final data used for this work and instructions to generate it. 
 
 ## Citation
 
